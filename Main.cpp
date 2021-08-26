@@ -57,7 +57,7 @@ void PrintBoard(vector<vector<State>> & refMygrid)
     {
       for(int j=0;j<refMygrid[i].size();j++)
       {
-        cout << int(refMygrid[i][j]);
+        cout << CellString(refMygrid[i][j]);
       }
       cout << "\n";
 
